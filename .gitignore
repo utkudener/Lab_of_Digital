@@ -1,6 +1,11 @@
 # Ders materyalleri (3. taraf telif - repoya girmez)
 AY*LAB_DIG*.pdf
 
+# Teslim arşivleri (kişisel ad içerir)
+*.rar
+*.zip
+*.7z
+
 # ModelSim artefaktları
 work/
 transcript

@@ -12,7 +12,7 @@ Each exercise lives in its own folder with a dedicated README:
 | Exercise | Topic | Status |
 |---|---|---|
 | [Exercise 1](Exercise%201/README.md) | 4-bit Ripple Carry Adder (behavioral full adder) | Done |
-| [Exercise 2](Exercise%202/README.md) | 2:1 Multiplexer and D Flip-Flops | In progress |
+| [Exercise 2](Exercise%202/README.md) | 8-bit Shift Register (hold / shift L / shift R / parallel load) | Done |
 
 Every exercise folder follows the same convention:
 
