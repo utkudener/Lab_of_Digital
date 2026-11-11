@@ -20,17 +20,22 @@ always_comb
 begin
 Y=0;Z=0;
 case(state)
-    S0:if(a)
-        next_state = S1;
-    else
+    S0:
+        if(a)
+            next_state = S1;
+        else
+            next_state = S0;
+    S1: begin
+        Y=1;
+        if(b)
+            next_state = S2;
+        else
+            next_state = S1;
+    end
+    S2:begin
+        Z=1;
         next_state = S0;
-    S1: Y=1;
-    if(b)
-        next_state = S2;
-    else
-        next_state = S1;
-    S2:Z=1;
-        next_state = S0;
+    end
     default:
         next_state = S0;
 endcase
